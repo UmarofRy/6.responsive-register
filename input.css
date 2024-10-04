@@ -1,0 +1,128 @@
+* {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+}
+
+.modal {
+         flex-direction: column;
+         text-align: center;
+         border-radius: 15px;
+         top: 20%;
+         flex-wrap: wrap;
+         background-image: url('./Mask\ Group.svg');
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 1080.27px;
+         height: 392.18px;
+         margin: 0 auto;
+
+         background-color: white;
+         left: 180px;
+
+}
+
+h1 {
+         font-size: 40px;
+}
+
+.big {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-image: url('./Rectangle\ 18.png');
+         background-size: 100%;
+         background-repeat: no-repeat;
+         height: 100vh;
+}
+
+input {
+         margin-top: 15px;
+         margin-left: 10px;
+         width: 362.49px;
+         height: 50px;
+         font-size: 14px;
+         font-weight: 300;
+         border-radius: 9px;
+         border: 1px solid #A1A1A1;
+         padding-left: 15px;
+}
+
+a {
+         background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+         width: 179px;
+         height: 53px;
+         border-radius: 7px;
+         color: white;
+         margin-top: 50px;
+         border: none;
+         text-decoration: none;
+         font-size: 25px;
+         padding-top: 10px;
+}
+
+textarea {
+         margin-left: 5px;
+         margin-top: 15px;
+         width: 735px;
+         height: 81.65px;
+         border-radius: 9px;
+         padding-left: 15px;
+         border: 1px solid #A1A1A1
+}
+
+.inp {
+         display: flex;
+         justify-content: center;
+
+}
+
+
+@media(max-width:1088px) {
+         .modal {
+                  width: 635px;
+                  height: 401px;
+                  flex-direction: column;
+         }
+
+         .inp {
+                  flex-direction: column;
+         }
+
+         input {
+                  width: 432px;
+                  height: 41px;
+         }
+
+         textarea {
+                  width: 432px;
+                  height: 95px;
+
+         }
+}
+
+@media (max-width:740px) {
+         .modal {
+                  width: 267px;
+                  height: 298px;
+                  flex-direction: column;
+         }
+
+         .inp {
+                  flex-direction: column;
+         }
+
+         input {
+                  width: 212px;
+                  height: 20px;
+                  border-radius: 100px;
+         }
+
+         textarea {
+                  width: 212px;
+                  height: 195px;
+
+
+         }
+}
